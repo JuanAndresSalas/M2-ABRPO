@@ -1,4 +1,11 @@
 @charset "UTF-8";
+#main-contacto {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 5%;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
