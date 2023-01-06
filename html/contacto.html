@@ -63,14 +63,41 @@
             Proporciona un correo válido
           </div>
         </div>
-        <div class="row-md-2 form-floating">
-          <input type="text" class="form-control" id="ciudad-contacto" required>
-          <label for="ciudad-contacto" class="form-label">Ciudad</label>
+        <div class="row-md-2 form-floating ">
+          <select onchange="desplegarComuna()" id="region-contacto" class="form-select form-floating pt-2" required>
+            <option value="">Region</option>
+            <option value="arica">Arica y Parinacota</option>
+            <option value="tarapaca">Tarapacá</option>
+            <option value="antofagasta">Antofagasta</option>
+            <option value="atacama">Atacama</option>
+            <option value="coquimbo">Coquimbo</option>
+            <option value="valparaiso">Valparaíso</option>
+            <option value="o’Higgins">Región del Libertador Gral. Bernardo O’Higgins</option>
+            <option value="maule">Región del Maule</option>
+            <option value="biobio">Región del Biobío</option>
+            <option value="araucania">Región de la Araucanía</option>
+            <option value="rios">Región de Los Ríos</option>
+            <option value="lagos">Región de Los Lagos</option>
+            <option value="aisen">Región Aisén del Gral. Carlos Ibáñez del Campo</option>
+            <option value="magallanes">Región de Magallanes y de la Antártica Chilena</option>
+            <option value="metropolitana">Región Metropolitana de Santiago</option>
+          </select>
           <div class="valid-feedback">
             Ok!
           </div>
           <div class="invalid-feedback">
-            Proporciona una ciudad válida.
+            Seleciona una región válida.
+          </div>
+        </div>
+        <div class="row-md-2 form-floating">
+          <select  id="comuna-contacto" class="form-select form-floating" required>
+            <option value="">Comuna</option>
+          </select>
+          <div class="valid-feedback">
+            Ok!
+          </div>
+          <div class="invalid-feedback">
+            Selecciona una comuna válida.
           </div>
         </div>
         <div class="row-md-6 ">
