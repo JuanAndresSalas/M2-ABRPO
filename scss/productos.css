@@ -101,9 +101,10 @@ body{
 .card img:hover{
     /* animation-name: transformar;
     animation-duration: 1s; */
-    min-width: 205px;
-    transition-delay: 1s;
-    transition: 1s;
+    /* min-width: 205px; */
+    border-radius: 40px;
+
+    transition: .5s;
 }
 
 .conocemas {
