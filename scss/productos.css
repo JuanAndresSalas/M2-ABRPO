@@ -60,9 +60,11 @@ body{
     transition: all 1s;
 }
 
-.card p{
+.card .descripcion{
     color: black;
-    padding: 8px;
+    padding: px;
+    min-height: 100px;
+    max-height: 200px;
     
 }
 .card img  {
