@@ -1,4 +1,22 @@
 
+var precio01= 6800;
+var precio02= 9300;
+var precio02= 4300;
+var precio02= 3300;
+var precio02= 6300;
+var precio02= 7300;
+var precio02= 8300;
+var precio02= 6300;
+var total= 
+
+
+function texto(){
+document.getElementById("titulo").innerHTML = precio02;
+
+}
+
+
+
 
 
 var eleccion = console.log(prompt);
