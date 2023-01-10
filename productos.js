@@ -15,10 +15,7 @@ document.getElementById("titulo").innerHTML = precio02;
 
 }
 
-
-
-
-
+git
 var eleccion = console.log(prompt);
 function show() {
     //  alert("Producto Agregado");
