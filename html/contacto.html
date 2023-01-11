@@ -4,36 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamburguesas Artesanales</title>
+    <title>McDowell’s Contacto</title>
     <link rel="stylesheet" href="/scss/custom.css">
+    <link rel="stylesheet" href="/scss/productos.css">
     <script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
     
     
   </head> 
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-light">
+    <header id="header">
+      <nav class="navbar navbar-expand-lg  bg-warning">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/html/index.html">Inicio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/html/productos.html">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="/html/contacto.html">Contacto</a>
-              </li>
-            </ul>
-          </div>
+            <a class="navbar-brand" href="/html/index.html">McDowell’s</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/html/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/html/contacto.html">Contacto</a>
+                    </li>
+
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
     </header>
-    <h1>Hamburguesas Artesanales</h1>
-    <main id="main-contacto" class="form-floating p-4">
-      <form class="row g-3 needs-validation form-floating" novalidate>
+    <h1 class="container-fluid border tituloproductos">Contacto</h1>
+    <div class="container-fluid bg-warning" id="separador">&#160 </div>
+    <main id="main-contacto" class="form-floating p-5 ">
+      <form class="row g-3 needs-validation form-floating p-5" novalidate>
         <div class="col-md-3 form-floating">
           <input type="text" class="form-control" id="nombre-contacto" required>
           <label for="nombre-contacto" class="form-label">Nombre</label>
@@ -113,24 +120,39 @@
           </div>
         </div>
         <div class="col-12">
-          <button class="btn btn-primary" type="submit" onclick="alerta()">Enviar mensaje</button>
+          <button id="boton-formulario" class="boton" type="submit" onclick="alerta()">Enviar mensaje</button>
         </div>
       </form>
     </main>
-    <footer>
-      <p>Nombre equipo: Manuel Muñoz, Andrea Alvarez, Juan Salas</p>
-      <p>Año: 2022</p>
-    </footer>
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md- d-flex align-items-center">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                  <svg class="bi" width="30" height="24">
+                      <use xlink:href="#bootstrap"></use>
+                  </svg>
+              </a>
+              <span class="mb-3 mb-md-0 text-muted" style="font-family: 'Almarai'; ">© 2023 | Nombre equipo:
+                  Manuel Muñoz, Andrea Alvarez, Juan
+                  Salas</span>
+          </div>
 
-    <div id="prueba-alerta" style="display: none;" class="">
-      
-        <div id="marco-alerta" class="p-3">
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex" style="margin-right: 20px;">
+
+              <li class="ms-3"><a href="#"><img src="/img/icon/fb.png" style="max-width: 20px;"></a></li>
+              <li class="ms-3"><a href="#"><img src="/img/icon/ig.png" style="max-width: 20px;"></a></li>
+
+          </ul>
+      </footer>
+    </div>
+
+    <div id="prueba-alerta" style="display: none;" >
+        <div id="marco-alerta" class="p-5 rounded-5">
           <label for="aceptar" id="etiqueta-alerta">
             <p style="opacity: 1;">Faltan los siguientes campos:</p>
-            <ul id="lista-alerta" class="pt-2" >
-            </ul>
+            <ul id="lista-alerta" class="pt-2" ></ul>
           </label>
-          <button class="btn btn-primary " id="aceptar" onclick="ocultarDiv()">Aceptar</button>
+          <button class="boton" id="aceptar" onclick="ocultarDiv()">Aceptar</button>
         </div>
       
     </div>
