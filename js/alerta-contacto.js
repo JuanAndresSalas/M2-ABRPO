@@ -1,9 +1,5 @@
 
-
-
-
-
-function alertaCustom(){
+function alerta(){
 
     var nombre = document.getElementById("nombre-contacto").value;
     var apellido = document.getElementById("apellido-contacto").value;
