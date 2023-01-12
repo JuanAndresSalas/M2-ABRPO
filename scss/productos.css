@@ -127,3 +127,7 @@ footer {
     background-color: rgb(255, 193, 7, .4);
     color: white !important;
 }
+.img-fluid{
+    display: flex;
+    width: 100%;
+}
