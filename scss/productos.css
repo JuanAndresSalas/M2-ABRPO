@@ -9,7 +9,21 @@ body{
     line-height: 6px;
 }
 
+.carrito {
 
+
+}
+
+.tituloycarro{
+    display: grid;
+    grid-template-columns: 10fr 2fr;
+}
+
+/*BORRAR ESTE SPAN*/
+/* span{
+    background-color: rgb(131, 46, 46);
+    color: white;
+} */
 .containers{
     margin-top: 20px;
     display: flex;
