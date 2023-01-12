@@ -1,10 +1,8 @@
 
 
-
-
-
-function alertaCustom(){
-
+function alerta(){
+    scroll.scrollTop=0;
+    $("#boton-formulario").hide();
     var nombre = document.getElementById("nombre-contacto").value;
     var apellido = document.getElementById("apellido-contacto").value;
     var correo = document.getElementById("correo-contacto").value;
@@ -58,6 +56,7 @@ function ocultarDiv(){
     contenido = "";
     lineaNueva = "";
     document.getElementById("lista-alerta").innerHTML = ""
+    $("#boton-formulario").show();
 }
 
 
