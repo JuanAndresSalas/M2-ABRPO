@@ -9,6 +9,7 @@ body{
     line-height: 6px;
 }
 
+<<<<<<< HEAD
 .carrito {
 
 
@@ -24,6 +25,9 @@ body{
     background-color: rgb(131, 46, 46);
     color: white;
 } */
+=======
+
+>>>>>>> master
 .containers{
     margin-top: 20px;
     display: flex;
