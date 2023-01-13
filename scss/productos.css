@@ -60,6 +60,7 @@ body{
 
 
 .card h2{
+    font-family: 'Almarai';
     padding: 8px;
     color: black;
     font-weight: 700;
@@ -79,10 +80,6 @@ body{
 	margin-bottom: 15px;
 }
 
-.burgerhover:hover{
-
-    src:url(/img/imgs03/mcdowells+bg.jpg);
-}
 
 .tituloproductos{
 
@@ -97,6 +94,7 @@ body{
 }
 
 .card .descripcion {
+    font-family: 'Almarai', sans-serif ;
     color: black;
     padding: 10px;
     min-height: 100px;
