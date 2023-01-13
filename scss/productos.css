@@ -8,6 +8,19 @@ body{
     max-width: 100%;
     line-height: 6px;
 }
+#separador2{
+    max-height: 10px;
+    max-width: 100%;
+    margin-top: 50px;
+
+}
+#separadornav{
+    background-color: black !important;
+    max-height: 2px;
+    max-width: 100%;
+    margin-top: 0px;
+
+}
 
 
 .containers{
@@ -44,6 +57,7 @@ body{
         margin-top: 0px;
     }
 }
+
 
 .card h2{
     padding: 8px;
@@ -124,9 +138,51 @@ body{
     color: rgb(240, 19, 19);
 }
 
+.pie {
+
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+}
+
 footer {
+    padding-top: 0px;
+    text-align: center;
     font-family: 'Almarai', sans-serif;
-    font-weight: 100;
-    background-color: rgb(255, 193, 7, .4);
-    color: white !important;
+    color: #FFC107 ;
+}
+
+.footicon {
+    text-indent: 20px;
+    margin-bottom: 1px;
+}
+
+.footIcon ul{
+    margin-top: 10px;
+    display: inline-flex;
+    gap: 20px;
+    list-style: none;
+
+}
+
+.footequipo {
+    margin-bottom: 1px;
+}
+
+.footEquipo p{
+    font-weight: 900;
+}
+
+.footEquipo ul{
+    display: inline-flex;
+    gap: 20px;
+}
+
+.footLogo{
+
+}
+
+#mcdowells{
+    font-weight: ;
 }
