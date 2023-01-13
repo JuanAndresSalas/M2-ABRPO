@@ -78,6 +78,12 @@ body{
 	max-width: 100%;
 	margin-bottom: 15px;
 }
+
+.burgerhover:hover{
+
+    src:url(/img/imgs03/mcdowells+bg.jpg);
+}
+
 .tituloproductos{
 
     /* align-items: center;
