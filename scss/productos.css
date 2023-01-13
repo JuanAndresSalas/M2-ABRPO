@@ -241,14 +241,16 @@ main{
 /**final fancy header**/
 .skitter{
     margin-top: 10px;
-    margin-left: 250px;
+    margin: auto;
     background-color:#e80505 ;
     color: beige;
+    overflow: auto;
     
 } 
 .slider-1{
     margin-top: 10px;
     justify-content: center;
+    overflow: auto;
 }
 
 
