@@ -79,10 +79,6 @@ body{
 	margin-bottom: 15px;
 }
 
-.burgerhover:hover{
-
-    src:url(/img/imgs03/mcdowells+bg.jpg);
-}
 
 .tituloproductos{
 
@@ -190,9 +186,11 @@ footer {
 
 .footEquipo p{
     font-weight: 900;
+    line-height: 5px;
 }
 
 .footEquipo ul{
+    padding: 0px;
     display: inline-flex;
     gap: 20px;
 }
