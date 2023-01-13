@@ -66,7 +66,18 @@ body{
     font-size: 22px;
 }
 
+#productos{
 
+	column-count: 2;
+	column-width: 200px;
+	padding: 50px;
+}
+#productos img{
+    border-radius: 5px;;
+    width: 100%;
+	max-width: 100%;
+	margin-bottom: 15px;
+}
 .tituloproductos{
 
     /* align-items: center;
