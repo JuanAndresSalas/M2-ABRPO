@@ -1,8 +1,8 @@
 
 
 function alerta(){
-    scroll.scrollTop=0;
-    $("#boton-formulario").hide();
+
+    
     var nombre = document.getElementById("nombre-contacto").value;
     var apellido = document.getElementById("apellido-contacto").value;
     var correo = document.getElementById("correo-contacto").value;
@@ -19,7 +19,7 @@ function alerta(){
     if(apellido == ""){
         arregloEntradas.push("Apellido")
     }
-    if(correo == ""){
+    if(correo == "" !correo.includes()){
         arregloEntradas.push("Correo")
     }
     if(region == ""){
@@ -44,6 +44,8 @@ function alerta(){
             lista.appendChild(lineaNueva);
             lineaNueva.appendChild(contenido);
         })
+    }else{
+        $('#confirmacion-envio').show();
     }
 }
 
