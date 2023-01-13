@@ -8,6 +8,19 @@ body{
     max-width: 100%;
     line-height: 6px;
 }
+#separador2{
+    max-height: 10px;
+    max-width: 100%;
+    margin-top: 50px;
+
+}
+#separadornav{
+    background-color: black !important;
+    max-height: 2px;
+    max-width: 100%;
+    margin-top: 0px;
+
+}
 
 
 .containers{
@@ -45,19 +58,40 @@ body{
     }
 }
 
+
 .card h2{
     padding: 8px;
     color: black;
     font-weight: 700;
     font-size: 22px;
 }
+
+#productos{
+
+	column-count: 2;
+	column-width: 200px;
+	padding: 50px;
+}
+#productos img{
+    border-radius: 5px;;
+    width: 100%;
+	max-width: 100%;
+	margin-bottom: 15px;
+}
+
+.burgerhover:hover{
+
+    src:url(/img/imgs03/mcdowells+bg.jpg);
+}
+
 .tituloproductos{
 
-    margin:0px auto;
+    /* align-items: center;
+    margin-left: 90px; */
     background-color: rgb(0, 0, 0,);
-    font-family: 'Almarai', sans-serif;
+    font-family: 'Almarai', sans-serif ;
     font-size: 40px;
-    font-weight:900;
+    font-weight:900 !important;
     color: #000000;
     transition: all 1s;
 }
@@ -121,9 +155,183 @@ body{
     color: rgb(240, 19, 19);
 }
 
+.pie {
+
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+}
+
 footer {
+    padding-top: 0px;
+    text-align: center;
     font-family: 'Almarai', sans-serif;
+<<<<<<< HEAD
+    color: #FFC107 ;
+}
+
+.footicon {
+    text-indent: 20px;
+    margin-bottom: 1px;
+}
+
+.footIcon ul{
+    margin-top: 10px;
+    display: inline-flex;
+    gap: 20px;
+    list-style: none;
+
+}
+
+.footequipo {
+    margin-bottom: 1px;
+}
+
+.footEquipo p{
+    font-weight: 900;
+}
+
+.footEquipo ul{
+    display: inline-flex;
+    gap: 20px;
+}
+
+.footLogo{
+
+}
+
+#mcdowells{
+    font-weight: ;
+}
+=======
     font-weight: 100;
     background-color: rgb(255, 193, 7, .4);
     color: white !important;
 }
+.img-fluid{
+    display: flex;
+    width: 100%;
+}
+/**inicio fancy header**/
+@import url(https://fonts.googleapis.com/css?family=Expletus+Sans:600);
+/*==========SCALE-IN==========*/
+@-webkit-keyframes scale-in {
+     0%   {transform: scale(10, 10); opacity: 0;}
+    100% {transform: scale(1, 1); opacity: 1;}
+}
+
+@keyframes scale-in {
+    0%   {transform: scale(10, 10); opacity: 0;}
+    100% {transform: scale(1, 1);  opacity: 1;}
+}
+/*==========ROLL-OUT==========*/
+@-webkit-keyframes roll-out {
+    0%   {width: 0;}
+    100% {width: 100%; }
+}
+@keyframes roll-out {
+    0%   {width: 0;}
+    100% {width: 100%; }
+}
+
+
+main{
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Expletus Sans', cursive;
+}
+.hero{
+  width: 100%;
+  max-width: 1200px;
+  height: 500px;
+  text-align: center;
+  margin: 0 auto;
+  background: none;
+  position: relative; 
+  color: #d0b719;
+}
+
+.hero h1{
+  font-size: 4.1em;
+  margin: auto;
+  position: absolute; 
+  top: 120px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.hero p{
+  font-size: 1.5em;
+  margin: auto;
+  position: absolute; 
+  top: 202px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+   z-index: 1;
+}
+.hero img{
+  width: 100%;
+  max-height: 400px;
+}
+.bar{
+  width: 100%;
+  height: 150px;
+  background: -moz-linear-gradient(289deg, #c60a09 0%, #f23332 36%, #c60a09 100%);
+  background: -webkit-linear-gradient(289deg, #c60a09 0%, #f23332 36%, #c60a09 100%);
+  background: -ms-linear-gradient(289deg, #c60a09 0%, #f23332 36%, #c60a09 100%);
+  background: linear-gradient(161deg, #c60a09 0%, #f23332 36%, #c60a09 100%);
+  opacity: 0.3;
+  position: absolute; 
+  z-index: 0;
+  left: 0;
+  top: 90px;
+  -ms-transform-origin: 100% 0%;
+  -webkit-transform-origin: 100% 0%;
+  transform-origin: 100% 0%;
+   -webkit-animation: roll-out 1.2s ease-out ;
+  -moz-animation: roll-out 1.2s ease-out ;
+    animation: roll-out 1.2s ease-out ; 
+}
+.hero h1, .hero p{
+  -webkit-animation: scale-in 1.3s ease-out;
+  -moz-animation: scale-in 1.3s  ease-out;
+    animation: scale-in 1.3s ease-out; 
+}
+
+
+@media all and (max-width: 768px) {
+  .hero{
+    height: 50vw;
+  }
+  .bar{
+    height: 26vw;
+    top: 10vw;
+  }
+  .hero h1{
+    font-size: 8vw;
+    top: 13vw;
+  }
+  .hero p{
+    font-size: 3vw;
+    top: 27vw;
+  }
+ 
+}
+/**final fancy header**/
+.skitter{
+    margin-top: 10px;
+    margin-left: 250px;
+    background-color:#e80505 ;
+    color: beige;
+    
+} 
+.slider-1{
+    margin-top: 10px;
+    justify-content: center;
+}
+
+
+>>>>>>> 393b54e55ff28e94a42a4dd15040c4a3e76a3bef

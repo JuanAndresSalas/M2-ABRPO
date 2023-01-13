@@ -19,7 +19,7 @@ function alerta(){
     if(apellido == ""){
         arregloEntradas.push("Apellido")
     }
-    if(correo == ""){
+    if(correo == "" !correo.includes()){
         arregloEntradas.push("Correo")
     }
     if(region == ""){
