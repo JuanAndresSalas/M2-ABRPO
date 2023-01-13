@@ -163,46 +163,6 @@ footer {
     padding-top: 0px;
     text-align: center;
     font-family: 'Almarai', sans-serif;
-<<<<<<< HEAD
-    color: #FFC107 ;
-}
-
-.footicon {
-    text-indent: 20px;
-    margin-bottom: 1px;
-}
-
-.footIcon ul{
-    margin-top: 10px;
-    display: inline-flex;
-    gap: 20px;
-    list-style: none;
-
-}
-
-.footequipo {
-    margin-bottom: 1px;
-}
-
-.footEquipo p{
-    font-weight: 900;
-    line-height: 5px;
-}
-
-.footEquipo ul{
-    padding: 0px;
-    display: inline-flex;
-    gap: 20px;
-}
-
-.footLogo{
-
-}
-
-#mcdowells{
-    font-weight: ;
-}
-=======
     font-weight: 100;
     background-color: rgb(255, 193, 7, .4);
     color: white !important;
@@ -248,6 +208,8 @@ main{
   background: none;
   position: relative; 
   color: #d0b719;
+  margin-bottom: 10px;
+
 }
 
 .hero h1{
@@ -321,15 +283,16 @@ main{
 /**final fancy header**/
 .skitter{
     margin-top: 10px;
-    margin-left: 250px;
+    margin: auto;
     background-color:#e80505 ;
     color: beige;
+    overflow: auto;
     
 } 
 .slider-1{
-    margin-top: 10px;
+    margin-top: 5px;
     justify-content: center;
+    overflow: auto;
 }
 
 
->>>>>>> 393b54e55ff28e94a42a4dd15040c4a3e76a3bef

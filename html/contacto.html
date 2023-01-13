@@ -42,7 +42,7 @@
     <h1 class="container-fluid border tituloproductos">Contacto</h1>
     <div class="container-fluid bg-warning" id="separador">&#160 </div>
     <main id="main-contacto" class="form-floating p-5 ">
-      <form class="row g-3 needs-validation form-floating p-1" novalidate>
+      <form class="row g-3 needs-validation form-floating p-1" id="formulario" novalidate>
         <div class="col-md-3 form-floating">
           <input type="text" class="form-control" id="nombre-contacto" required>
           <label for="nombre-contacto" class="form-label">Nombre</label>
@@ -164,7 +164,7 @@
           <p >Mensaje enviado</p>
           <ul id="lista-alerta" class="pt-2" ></ul>
         </label>
-        <button class="boton" id="aceptar" onclick="ocultarDiv()">Aceptar</button>
+        <button class="boton"  id="aceptar" onclick="ocultarConfirmacion()">Aceptar</button>
       </div>
     </div>
     
