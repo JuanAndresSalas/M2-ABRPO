@@ -167,44 +167,6 @@ footer {
     padding-top: 0px;
     text-align: center;
     font-family: 'Almarai', sans-serif;
-<<<<<<< HEAD
-    color: #FFC107 ;
-}
-
-.footicon {
-    text-indent: 20px;
-    margin-bottom: 1px;
-}
-
-.footIcon ul{
-    margin-top: 10px;
-    display: inline-flex;
-    gap: 20px;
-    list-style: none;
-
-}
-
-.footequipo {
-    margin-bottom: 1px;
-}
-
-.footEquipo p{
-    font-weight: 900;
-}
-
-.footEquipo ul{
-    display: inline-flex;
-    gap: 20px;
-}
-
-.footLogo{
-
-}
-
-#mcdowells{
-    font-weight: ;
-}
-=======
     font-weight: 100;
     background-color: rgb(255, 193, 7, .4);
     color: white !important;
@@ -227,26 +189,26 @@ footer {
 }
 /*==========ROLL-OUT==========*/
 @-webkit-keyframes roll-out {
-    0%   {width: 0;}
+    100%   {width: 0;}
     100% {width: 100%; }
 }
 @keyframes roll-out {
-    0%   {width: 0;}
+    100%   {width: 0;}
     100% {width: 100%; }
 }
 
 
 main{
+    display: flex;
   width: 100%;
   overflow: hidden;
   font-family: 'Expletus Sans', cursive;
 }
 .hero{
+    display: flex;
   width: 100%;
-  max-width: 1200px;
   height: 500px;
   text-align: center;
-  margin: 0 auto;
   background: none;
   position: relative; 
   color: #d0b719;
@@ -255,8 +217,8 @@ main{
 }
 
 .hero h1{
+    display: flex;
   font-size: 4.1em;
-  margin: auto;
   position: absolute; 
   top: 120px;
   left: 0;
@@ -265,8 +227,8 @@ main{
   z-index: 1;
 }
 .hero p{
+    display: flex;
   font-size: 1.5em;
-  margin: auto;
   position: absolute; 
   top: 202px;
   left: 0;
@@ -279,6 +241,7 @@ main{
   max-height: 400px;
 }
 .bar{
+    display: flex;
   width: 100%;
   height: 150px;
   background: -moz-linear-gradient(289deg, #c60a09 0%, #f23332 36%, #c60a09 100%);
@@ -304,21 +267,25 @@ main{
 }
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 100%) {
   .hero{
     height: 50vw;
+    text-align: center;
   }
   .bar{
     height: 26vw;
     top: 10vw;
+    
   }
   .hero h1{
     font-size: 8vw;
     top: 13vw;
+    
   }
   .hero p{
     font-size: 3vw;
     top: 27vw;
+    
   }
  
 }
@@ -338,4 +305,3 @@ main{
 }
 
 
->>>>>>> 393b54e55ff28e94a42a4dd15040c4a3e76a3bef
