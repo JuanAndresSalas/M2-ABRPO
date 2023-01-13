@@ -18,7 +18,7 @@
   opacity: 1;
 }
 
-#prueba-alerta {
+#prueba-alerta, #confirmacion-envio {
   display: flex;
   justify-content: center;
   position: fixed;

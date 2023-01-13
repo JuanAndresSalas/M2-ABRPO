@@ -1,5 +1,6 @@
 
 
+
 function alerta(){
 
     
@@ -19,7 +20,7 @@ function alerta(){
     if(apellido == ""){
         arregloEntradas.push("Apellido")
     }
-    if(correo == "" !correo.includes()){
+    if(correo == "" || !correo.includes("@")){
         arregloEntradas.push("Correo")
     }
     if(region == ""){
@@ -39,26 +40,40 @@ function alerta(){
         $('#prueba-alerta').show();
         var lista=document.getElementById("lista-alerta");
         arregloEntradas.forEach(function(campo) {
-            var lineaNueva= document.createElement("li");
-            var contenido = document.createTextNode(campo)
-            lista.appendChild(lineaNueva);
-            lineaNueva.appendChild(contenido);
+        var lineaNueva= document.createElement("li");
+        var contenido = document.createTextNode(campo)
+        lista.appendChild(lineaNueva);
+        lineaNueva.appendChild(contenido);
         })
+        document.getElementById("formulario").addEventListener("click", function(event){
+            if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+              }
+        });
     }else{
         $('#confirmacion-envio').show();
+        
+        
+        
     }
+
+
 }
 
-
+function ocultarConfirmacion(){
+    $('#confirmacion-envio').hide();
+}
 
 function ocultarDiv(){
     $('#prueba-alerta').hide();
+    
     arregloEntradas = [];
     lista = "";
     contenido = "";
     lineaNueva = "";
     document.getElementById("lista-alerta").innerHTML = ""
-    $("#boton-formulario").show();
+    
 }
 
 
