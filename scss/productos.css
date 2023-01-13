@@ -168,6 +168,8 @@ main{
   background: none;
   position: relative; 
   color: #d0b719;
+  margin-bottom: 10px;
+
 }
 
 .hero h1{
@@ -248,7 +250,7 @@ main{
     
 } 
 .slider-1{
-    margin-top: 10px;
+    margin-top: 5px;
     justify-content: center;
     overflow: auto;
 }
