@@ -51,13 +51,19 @@ body{
     font-weight: 700;
     font-size: 22px;
 }
+
+.tituloycarro{
+    color: red;
+}
 .tituloproductos{
 
     margin:0px auto;
+    align-items: center;
+    margin-left: 90px;
     background-color: rgb(0, 0, 0,);
-    font-family: 'Almarai', sans-serif;
+    font-family: 'Almarai', sans-serif ;
     font-size: 40px;
-    font-weight:900;
+    font-weight:900 !important;
     color: #000000;
     transition: all 1s;
 }
