@@ -250,6 +250,8 @@ main{
   background: none;
   position: relative; 
   color: #d0b719;
+  margin-bottom: 10px;
+
 }
 
 .hero h1{
@@ -323,14 +325,16 @@ main{
 /**final fancy header**/
 .skitter{
     margin-top: 10px;
-    margin-left: 250px;
+    margin: auto;
     background-color:#e80505 ;
     color: beige;
+    overflow: auto;
     
 } 
 .slider-1{
-    margin-top: 10px;
+    margin-top: 5px;
     justify-content: center;
+    overflow: auto;
 }
 
 
