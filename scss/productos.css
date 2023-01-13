@@ -168,11 +168,10 @@ main{
   background: #e80505;
   position: relative; 
   color: #d0b719;
-  text-decoration: overline solid black;
 }
 
 .hero h1{
-  font-size: 20vw;
+  font-size: 4.1em;
   margin: auto;
   position: absolute; 
   top: 120px;
@@ -193,6 +192,7 @@ main{
 }
 .hero img{
   width: 100%;
+  max-height: 500px;
 }
 .bar{
   width: 100%;
@@ -229,14 +229,22 @@ main{
     top: 10vw;
   }
   .hero h1{
-    font-size: 16vw;
+    font-size: 8vw;
     top: 13vw;
   }
   .hero p{
-    font-size: 6vw;
+    font-size: 3vw;
     top: 27vw;
-    margin-top: 5px;
   }
  
 }
 /**final fancy header**/
+.skitter{
+    margin-top: 10px;
+    margin-left: 250px;
+    background-color:#e80505 ;
+    color: beige;
+    
+} 
+
+

@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="/scss/productos.css">
     <link href="dist/skitter.css" type="text/css" media="all" rel="stylesheet" />
 
-  <script src="/js/jquery-2.1.1.min.js"></script>
-  <script src="/js/jquery.easing.1.3.js"></script>
-  <script src="/dist/jquery.skitter.min.js"></script>
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="dist/jquery.skitter.min.js"></script>
     
   </head> 
   <body>
@@ -44,22 +44,59 @@
     </nav>
     </header>
     <div>
-      <!--fancy header-->
+      <!-- inicio fancy header-->
       <div class="hero">
         <h1>McDowell's</h1>
         <p>Hamburguesas Artesanales</p>
-        <img src="/img/burgerheader.jpg" />
+        <img src="/img/nuevaImgHeader.jpg" />
          <div class="bar"></div>
       </div>
       <!--final fancy header-->
     </div>
-    <!-- <section>
-        
-        <p>Somos una empresa dedicada a ofrecer a nuestros clientes hamburguesas de alta calidad hechas con ingredientes frescos y de origen local. Nuestra misión es ofrecer a nuestros clientes una experiencia única y deliciosa con cada bocado. Nuestras hamburguesas se cocinan a la parrilla con fuego de leña para darles un sabor auténtico y ahumado. Además, nuestras hamburguesas están rellenas con ingredientes de alta calidad, como carne de res y pollo frescos, queso derretido y verduras frescas. Además de nuestras deliciosas hamburguesas, también ofrecemos una amplia selección de acompañamientos, como papas fritas, nachos y bebidas frías. También tenemos opciones vegetarianas y sin gluten disponibles para aquellos que tienen necesidades dietéticas especiales. Visítenos en nuestro local o haga su pedido en línea para disfrutar de nuestras increíbles hamburguesas artesanales. Estamos seguros de que nuestro sabor y servicio excepcional lo dejarán completamente satisfecho. ¡Esperamos verlo pronto! </p>
-    </section> -->
-    
-      
-    </section>
+    <br>
+  
+    <!--inicio slider-->
+    <section>
+      <div class="skitter skitter-large with-dots">
+        <ul>
+          <li>
+            <a href="/html/contacto.html">
+              <img src="/img/genteComiendo.jpg" class="cut" />
+            </a>
+            <div class="label_text">
+              <p>
+                Somos una empresa dedicada a ofrecer a nuestros clientes hamburguesas de alta calidad hechas con ingredientes frescos y de origen local. Nuestra misión es ofrecer a nuestros clientes una experiencia única y deliciosa con cada bocado. Nuestras hamburguesas se cocinan a la parrilla con fuego de leña para darles un sabor auténtico y ahumado. Además, nuestras hamburguesas están rellenas con ingredientes de alta calidad, como carne de res y pollo frescos, queso derretido y verduras frescas. Además de nuestras deliciosas hamburguesas, también ofrecemos una amplia selección de acompañamientos, como papas fritas, nachos y bebidas frías. También tenemos opciones vegetarianas y sin gluten disponibles para aquellos que tienen necesidades dietéticas especiales. Visítenos en nuestro local o haga su pedido en línea para disfrutar de nuestras increíbles hamburguesas artesanales. Estamos seguros de que nuestro sabor y servicio excepcional lo dejarán completamente satisfecho. ¡Esperamos verlo pronto! 
+                <a href="#see-more" class="btn btn-xs btn-warning">Contáctanos</a>
+              </p>
+            </div>
+          </li>
+          <li>
+            <a href="https://goo.gl/maps/A7uPQbKhWUPLHhbt6">
+              <img src="/img/imagenMapa.jpg" class="swapBlocks" />
+            </a>
+            <div class="label_text">
+              <p>
+                Encuentranos en nuestro local.
+                <a href="#see-more" class="btn btn-xs btn-warning">Ir</a>
+              </p>
+            </div>
+          </li>
+          <li>
+            <a href="#swapBarsBack">
+              <img src="/img/logoInstagram.webp" class="swapBarsBack" />
+            </a>
+            <div class="label_text">
+              <p>
+                Síguenos en Instagram.
+                <a href="https://www.instagram.com/" class="btn btn-xs btn-warning">Ir</a>
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+         
+    </section> 
+    <!--fin slider-->
     <footer>
       <p>Nombre equipo: Manuel Muñoz, Andrea Alvarez, Juan Salas</p>
       <p>Año: 2022</p>
@@ -67,5 +104,9 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+    $(function() {
+      $('.skitter-large').skitter();
+    });</script>
   </body>
 </html>
