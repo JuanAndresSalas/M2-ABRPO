@@ -94,7 +94,7 @@ body{
 }
 
 .card .descripcion {
-    font-family: 'Almarai', sans-serif ;
+    font-family: 'Almarai', sans-serif !important ;
     color: black;
     padding: 10px;
     min-height: 100px;
@@ -140,7 +140,12 @@ body{
 }
 
 .conocemas {
-    margin-left: 35px;
+/* 
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important; */
+    margin-left: 40px;
 
 }
 .card .precio{
