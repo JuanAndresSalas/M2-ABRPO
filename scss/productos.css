@@ -310,13 +310,13 @@ main{
     margin: auto;
     background-color:#e80505 ;
     color: beige;
-    overflow: auto;
+    overflow: hidden ;
     
 } 
 .slider-1{
     margin-top: 5px;
     justify-content: center;
-    overflow: auto;
+    overflow: none ;
 }
 
 .contacto{
