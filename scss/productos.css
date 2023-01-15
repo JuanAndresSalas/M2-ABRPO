@@ -201,6 +201,21 @@ footer {
     100% {width: 100%; }
 }
 
+.footequipo {
+    margin-bottom: 1px;
+}
+
+.footEquipo p{
+    font-weight: 900;
+    line-height: 5px;
+}
+
+.footEquipo ul{
+    padding: 0px;
+    display: inline-flex;
+    gap: 20px;
+}
+
 
 main{
     
