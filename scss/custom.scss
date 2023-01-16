@@ -46,4 +46,11 @@
     opacity: 1
 }
 
+#reloj, #interior-reloj{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap";

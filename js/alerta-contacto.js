@@ -1,9 +1,6 @@
 
-
-
 function alerta(){
 
-    
     var nombre = document.getElementById("nombre-contacto").value;
     var apellido = document.getElementById("apellido-contacto").value;
     var correo = document.getElementById("correo-contacto").value;
@@ -12,8 +9,6 @@ function alerta(){
     var areaTexto = document.getElementById("area-texto").value;
     var arregloEntradas = [];
     
-    
-
     if(nombre == ""){
         arregloEntradas.push("Nombre")
     }
@@ -39,11 +34,12 @@ function alerta(){
     if(arregloEntradas.length > 0){
         $('#prueba-alerta').show();
         var lista=document.getElementById("lista-alerta");
+
         arregloEntradas.forEach(function(campo) {
-        var lineaNueva= document.createElement("li");
-        var contenido = document.createTextNode(campo)
-        lista.appendChild(lineaNueva);
-        lineaNueva.appendChild(contenido);
+            var lineaNueva= document.createElement("li");
+            var contenido = document.createTextNode(campo)
+            lista.appendChild(lineaNueva);
+            lineaNueva.appendChild(contenido);
         })
         document.getElementById("formulario").addEventListener("click", function(event){
             if (!form.checkValidity()) {
@@ -53,12 +49,7 @@ function alerta(){
         });
     }else{
         $('#confirmacion-envio').show();
-        
-        
-        
     }
-
-
 }
 
 function ocultarConfirmacion(){
@@ -73,7 +64,6 @@ function ocultarDiv(){
     contenido = "";
     lineaNueva = "";
     document.getElementById("lista-alerta").innerHTML = ""
-    
 }
 
 
@@ -82,6 +72,7 @@ function desplegarComuna(){
     document.getElementById("comuna-contacto").innerHTML = "";
     let region = document.getElementById("region-contacto").value;
     let listaComunas = document.getElementById("comuna-contacto");
+
     switch(region){
         case "arica": 
             let comunas1 = ["-","Arica", "Camarones", "Putre", "General Lagos"];
@@ -246,6 +237,5 @@ function desplegarComuna(){
             });
             break;
     }
-
 }
 
